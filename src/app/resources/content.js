@@ -52,13 +52,12 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Web and App Developer</>,
+  headline: <>Software Developer</>,
   subline: (
     <>
-      I'm Shiraz Yousuf, someone who loves building things and exploring new
-      technologies. When I'm not coding, you can find me on the football field,
-      enjoying the game. Whether it's crafting projects that make an impact or
-      playing football for fun, I’m always up for a challenge.
+      Hi, I'm Shiraz Yousuf — a proactive software developer who builds
+      solutions, not just projects. I specialize in full-stack development, love
+      solving real-world problems, and quickly adapt to new technologies.
     </>
   ),
 };
@@ -96,6 +95,39 @@ const about = {
     display: true, // set to false to hide this section
     title: "Work Experience",
     experiences: [
+      {
+        company: "Healthflex",
+        timeframe: "March 2025 - Present",
+        role: "SDE",
+        achievements: [
+          <>Built and optimized a real-time chat system.</>,
+          <>
+            Developed a seamless appointment booking system with scheduling
+            logic.
+          </>,
+          <>
+            Engineered a robust notification system supporting in-app and push
+            notifications.
+          </>,
+          <>
+            Implemented CI/CD pipelines to automate deployment for faster
+            delivery cycles.Built and optimized a real-time chat system.
+          </>,
+          <>
+            Contributed to three different projects: Stance Health website,
+            HealthFlex mobile app, and the Admin Dashboard.
+          </>,
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/projects/project-01/healthflex.png",
+            alt: "Once UI Project",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
       {
         company: "Fleeguide",
         timeframe: "June 2024 - July 2024",
